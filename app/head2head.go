@@ -19,5 +19,5 @@ func getAPIKey(key string) string {
 func main() {
 	//set .env variable API_KEY for ur api key to use
 	apiKey := getAPIKey("API_KEY")
-	//println(apiKey)
+	println(apiKey)
 }
